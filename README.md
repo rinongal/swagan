@@ -7,8 +7,7 @@
 ![Teaser image](./docs/teaser.jpg)
 
 > **SWAGAN: A Style-based Wavelet-driven Generative Model**<br>
-> Rinon Gal, Dana Cohen Hochberg, Amit Bermano, Daniel Cohen-Or <br>
-
+> Rinon Gal, Dana Cohen Hochberg, Amit Bermano, Daniel Cohen-Or <br><br>
 >**Abstract**: <br>
 > In recent years, considerable progress has been made in the visual quality of Generative Adversarial Networks (GANs). Even so, these networks still suffer from degradation in quality for high-frequency content, stemming from a spectrally biased architecture, and similarly unfavorable loss functions. To address this issue, we present a novel general-purpose Style and WAvelet based GAN (SWAGAN) that implements progressive generation in the frequency domain. SWAGAN incorporates wavelets throughout its generator and discriminator architectures, enforcing a frequency-aware latent representation at every step of the way. This approach, designed to directly tackle the spectral bias of neural networks, yields an improvement in the ability to generate medium and high frequency content, including structures which other networks fail to learn. We demonstrate the advantage of our method by integrating it into the SyleGAN2 framework, and verifying that content generation in the wavelet domain leads to more realistic high-frequency content, even when trained for fewer iterations. Furthermore, we verify that our model's latent space retains the qualities that allow StyleGAN to serve as a basis for a multitude of editing tasks, and show that our frequency-aware approach also induces improved high-frequency performance in downstream tasks.
 
@@ -24,6 +23,8 @@ Our code borrows heavily from the [original StyleGAN2 implementation.](https://g
 ## Using pre-trained networks
 
 Pre-trained networks are stored as `*.pkl` files.
+
+Paper models can be downloaded [here.](https://drive.google.com/drive/folders/1zb094xlZIIpnT8OfYb2QmRIb-6kDcQ1c?usp=sharing) More models will be made available soon.
 
 To generate images with a given model, use:
 
